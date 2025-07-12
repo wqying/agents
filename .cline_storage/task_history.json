@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1751428457059",
+    "ts": 1751428534858,
+    "task": "Explain the following code from @/1_foundations\\3_lab3.ipynb:\n```python\nimport gradio as gr\n```",
+    "tokensIn": 8,
+    "tokensOut": 927,
+    "cacheWrites": 17301,
+    "cacheReads": 16311,
+    "totalCost": 0.08370105,
+    "size": 44806,
+    "shadowGitConfigWorkTree": "c:\\Personal\\agents",
+    "cwdOnTaskInitialization": "c:\\Personal\\agents"
+  },
+  {
+    "id": "1752153151575",
+    "ts": 1752153602407,
+    "task": "take a look at how app.oy in this workspace uses gradio. And then, look into my C:\\Projects\\PackageML\\LLM\\Agent\\src project folder and give me a plan and complete code (but separate into chunks) of how to integrate gradio to my Flow Manager Agent",
+    "tokensIn": 28,
+    "tokensOut": 7290,
+    "cacheWrites": 31619,
+    "cacheReads": 127165,
+    "totalCost": 1.33077375,
+    "size": 194925,
+    "cwdOnTaskInitialization": "c:\\Personal\\agents"
+  }
+]

@@ -1,0 +1,252 @@
+{
+  "files_in_context": [
+    {
+      "path": "1_foundations/app.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1752153180076,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\base_agent.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1752153208818,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\sray_agent.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1752153223073,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\sray_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1752153223073,
+      "cline_edit_date": null,
+      "user_edit_date": 1752156155135
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\base_agent.py",
+      "record_state": "active",
+      "record_source": "user_edited",
+      "cline_read_date": 1752153208818,
+      "cline_edit_date": null,
+      "user_edit_date": 1752157238548
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\sray_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1752153223073,
+      "cline_edit_date": null,
+      "user_edit_date": 1752159887363
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\sray_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1752153223073,
+      "cline_edit_date": null,
+      "user_edit_date": 1752163623992
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\sray_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1752153223073,
+      "cline_edit_date": null,
+      "user_edit_date": 1752167344575
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\sray_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1752153223073,
+      "cline_edit_date": null,
+      "user_edit_date": 1752171064231
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\sray_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1752153223073,
+      "cline_edit_date": null,
+      "user_edit_date": 1752174787399
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\sray_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1752153223073,
+      "cline_edit_date": null,
+      "user_edit_date": 1752178507277
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\sray_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1752153223073,
+      "cline_edit_date": null,
+      "user_edit_date": 1752182229646
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\sray_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1752153223073,
+      "cline_edit_date": null,
+      "user_edit_date": 1752183745045
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\sray_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1752153223073,
+      "cline_edit_date": null,
+      "user_edit_date": 1752183761509
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\sray_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1752153223073,
+      "cline_edit_date": null,
+      "user_edit_date": 1752183781390
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\sray_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1752153223073,
+      "cline_edit_date": null,
+      "user_edit_date": 1752183785534
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\sray_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1752153223073,
+      "cline_edit_date": null,
+      "user_edit_date": 1752183827365
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\sray_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1752153223073,
+      "cline_edit_date": null,
+      "user_edit_date": 1752183852995
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\sray_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1752153223073,
+      "cline_edit_date": null,
+      "user_edit_date": 1752183891766
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\sray_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1752153223073,
+      "cline_edit_date": null,
+      "user_edit_date": 1752183892955
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\sray_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1752153223073,
+      "cline_edit_date": null,
+      "user_edit_date": 1752183980255
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\sray_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1752153223073,
+      "cline_edit_date": null,
+      "user_edit_date": 1752183996536
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\sray_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1752153223073,
+      "cline_edit_date": null,
+      "user_edit_date": 1752183999207
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\sray_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1752153223073,
+      "cline_edit_date": null,
+      "user_edit_date": 1752184152260
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\sray_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1752153223073,
+      "cline_edit_date": null,
+      "user_edit_date": 1752184171395
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\sray_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1752153223073,
+      "cline_edit_date": null,
+      "user_edit_date": 1752184209616
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\sray_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1752153223073,
+      "cline_edit_date": null,
+      "user_edit_date": 1752184382798
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\sray_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1752153223073,
+      "cline_edit_date": null,
+      "user_edit_date": 1752184452335
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\sray_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1752153223073,
+      "cline_edit_date": null,
+      "user_edit_date": 1752184514597
+    },
+    {
+      "path": "C:\\Projects\\PackageML\\LLM\\Agent\\src\\sray_agent.py",
+      "record_state": "active",
+      "record_source": "user_edited",
+      "cline_read_date": 1752153223073,
+      "cline_edit_date": null,
+      "user_edit_date": 1752198274238
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1752153151610,
+      "model_id": "claude-opus-4-20250514",
+      "model_provider_id": "anthropic",
+      "mode": "plan"
+    }
+  ]
+}

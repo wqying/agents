@@ -1,2 +1,9 @@
-My name is Ed Donner. I'm an entrepreneur, software engineer and data scientist. I'm originally from London, England, but I moved to NYC in 2000.
-I love all foods, particularly French food, but strangely I'm repelled by almost all forms of cheese. I'm not allergic, I just hate the taste! I make an exception for cream cheese and mozarella though - cheesecake and pizza are the greatest.
+Hi all, Ying here! 
+
+I'm entering my fourth and final year at UC Irvine as a Cognitive Science and Computer Science student. My unique academic expertise has helped me gain experience in machine learning, neuroscience research, software engineering, robotics, and game development.
+
+Currently, I am an intern at Advanced Micro Devices (AMD) developing AI Agents to boost productivity and automate engineering workflows. 
+
+Outside of school and work, I run a lion dance team in Orange County. Culture is important to me.
+
+🧠 + 👩‍💻 + 🦁 = Ying

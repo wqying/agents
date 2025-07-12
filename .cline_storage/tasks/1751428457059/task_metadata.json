@@ -1,0 +1,53 @@
+{
+  "files_in_context": [
+    {
+      "path": "1_foundations\\3_lab3.ipynb",
+      "record_state": "stale",
+      "record_source": "file_mentioned",
+      "cline_read_date": 1751428487242,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "1_foundations\\3_lab3.ipynb",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1751428487242,
+      "cline_edit_date": null,
+      "user_edit_date": 1751428666199
+    },
+    {
+      "path": "1_foundations\\3_lab3.ipynb",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1751428487242,
+      "cline_edit_date": null,
+      "user_edit_date": 1751428999693
+    },
+    {
+      "path": "1_foundations\\3_lab3.ipynb",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1751428487242,
+      "cline_edit_date": null,
+      "user_edit_date": 1751429182034
+    },
+    {
+      "path": "1_foundations\\3_lab3.ipynb",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1751428487242,
+      "cline_edit_date": null,
+      "user_edit_date": 1751429216406
+    },
+    {
+      "path": "1_foundations\\3_lab3.ipynb",
+      "record_state": "active",
+      "record_source": "user_edited",
+      "cline_read_date": 1751428487242,
+      "cline_edit_date": null,
+      "user_edit_date": 1751429486091
+    }
+  ],
+  "model_usage": []
+}
