@@ -131,5 +131,5 @@ If you've asked for three times and they still didn't provide their contact info
 
 if __name__ == "__main__":
     me = Me()
-    gr.ChatInterface(me.chat, type="messages").launch()
+    gr.ChatInterface(me.chat, type="messages").launch(share=True)
     
