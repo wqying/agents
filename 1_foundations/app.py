@@ -9,24 +9,24 @@ import gradio as gr
 
 load_dotenv(override=True)
 
-def push(text):
-    requests.post(
-        "https://api.pushover.net/1/messages.json",
-        data={
-            "token": os.getenv("PUSHOVER_TOKEN"),
-            "user": os.getenv("PUSHOVER_USER"),
-            "message": text,
-        }
-    )
+# def push(text):
+#     requests.post(
+#         "https://api.pushover.net/1/messages.json",
+#         data={
+#             "token": os.getenv("PUSHOVER_TOKEN"),
+#             "user": os.getenv("PUSHOVER_USER"),
+#             "message": text,
+#         }
+#     )
 
 
-def record_user_details(email, name="Name not provided", notes="not provided"):
-    push(f"Recording {name} with email {email} and notes {notes}")
-    return {"recorded": "ok"}
+# def record_user_details(email, name="Name not provided", notes="not provided"):
+#     push(f"Recording {name} with email {email} and notes {notes}")
+#     return {"recorded": "ok"}
 
-def record_unknown_question(question):
-    push(f"Recording {question}")
-    return {"recorded": "ok"}
+# def record_unknown_question(question):
+#     push(f"Recording {question}")
+#     return {"recorded": "ok"}
 
 record_user_details_json = {
     "name": "record_user_details",
@@ -105,9 +105,7 @@ particularly questions related to {self.name}'s career, background, skills and e
 Your responsibility is to represent {self.name} for interactions on the website as faithfully as possible. \
 You are given a summary of {self.name}'s background and LinkedIn profile which you can use to answer questions. \
 Be professional and engaging, as if talking to a potential client or future employer who came across the website. \
-If you don't know the answer to any question, use your record_unknown_question tool to record the question that you couldn't answer, even if it's about something trivial or unrelated to career. \
-If the user is engaging in discussion, try to steer them towards getting in touch via email; ask for their name and email and record it using your record_user_details tool. \
-If you've asked for three times and they still didn't provide their contact information, you can stop asking for it. "
+If you don't know the answer to any question, always say 'I don't know how to answer that yet! Please contact the human me directly!'"
 
         system_prompt += f"\n\n## Summary:\n{self.summary}\n\n## LinkedIn Profile:\n{self.linkedin}\n\n"
         system_prompt += f"With this context, please chat with the user, always staying in character as {self.name}."
