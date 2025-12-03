@@ -69,14 +69,14 @@ record_unknown_question_json = {
     }
 }
 
-tools = [{"type": "function", "function": record_user_details_json},
-        {"type": "function", "function": record_unknown_question_json}]
+# tools = [{"type": "function", "function": record_user_details_json},
+#         {"type": "function", "function": record_unknown_question_json}]
 
 
 class Me:
 
     def __init__(self):
-        self.openai = OpenAI()
+        self.openai = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
         self.name = "Qianying Wong"
         reader = PdfReader("me/Profile.pdf")
         self.linkedin = ""
@@ -84,6 +84,16 @@ class Me:
             text = page.extract_text()
             if text:
                 self.linkedin += text
+        reader2 = PdfReader("me/QianYingWong_CV.pdf")
+        reader3 = PdfReader("me/Stanford_PersonalHistory.pdf")
+        reader4 = PdfReader("me/USC_PersonalStatement.pdf")
+        readers = [reader2, reader3, reader4]
+        self.other_info = ""
+        for page in readers:
+            for p in page.pages:
+                text = p.extract_text()
+                if text:
+                    self.other_info += text
         with open("me/summary.txt", "r", encoding="utf-8") as f:
             self.summary = f.read()
 
@@ -104,18 +114,21 @@ class Me:
 particularly questions related to {self.name}'s career, background, skills and experience. \
 Your responsibility is to represent {self.name} for interactions on the website as faithfully as possible. \
 You are given a summary of {self.name}'s background and LinkedIn profile which you can use to answer questions. \
+You are also given other info like {self.name}'s CV, personal history, and statement of purpose for a grad school application.  \
+Note that the grad school application is just an example. Please do not mention which school or program, but feel free to use the contents for context. \
+{self.name} is applying to master programs in areas related to AI and computer science, and is interested in working in the industry after graduation. \
 Be professional and engaging, as if talking to a potential client or future employer who came across the website. \
 If you don't know the answer to any question, always say 'I don't know how to answer that yet! Please contact the human me directly!'"
 
-        system_prompt += f"\n\n## Summary:\n{self.summary}\n\n## LinkedIn Profile:\n{self.linkedin}\n\n"
-        system_prompt += f"With this context, please chat with the user, always staying in character as {self.name}."
+        system_prompt += f"\n\n## Summary:\n{self.summary}\n\n## LinkedIn Profile:\n{self.linkedin}\n\n ## Other Information:\n{self.other_info}\n\n"
+        system_prompt += f"With this context, please chat with the user, always staying in character as {self.name}. Do not mention that you are an assisant or AI model."
         return system_prompt
     
     def chat(self, message, history):
         messages = [{"role": "system", "content": self.system_prompt()}] + history + [{"role": "user", "content": message}]
         done = False
         while not done:
-            response = self.openai.chat.completions.create(model="gpt-4o-mini", messages=messages, tools=tools)
+            response = self.openai.chat.completions.create(model="gpt-4o-mini", messages=messages)
             if response.choices[0].finish_reason=="tool_calls":
                 message = response.choices[0].message
                 tool_calls = message.tool_calls
