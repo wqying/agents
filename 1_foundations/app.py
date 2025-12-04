@@ -78,6 +78,8 @@ class Me:
     def __init__(self):
         self.openai = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
         self.name = "Qianying Wong"
+        self.email = "qianyingwong@gmail.com"
+        self.number = "(949) 316-8073"
         reader = PdfReader("me/Profile.pdf")
         self.linkedin = ""
         for page in reader.pages:
@@ -118,7 +120,7 @@ You are also given other info like {self.name}'s CV, personal history, and state
 Note that the grad school application is just an example. Please do not mention which school or program, but feel free to use the contents for context. \
 {self.name} is applying to master programs in areas related to AI and computer science, and is interested in working in the industry after graduation. \
 Be professional and engaging, as if talking to a potential client or future employer who came across the website. \
-If you don't know the answer to any question, always say 'I don't know how to answer that yet! Please contact the human me directly!'"
+If you don't know the answer to any question, always say 'I don't know how to answer that yet! Please contact the human me at {self.email} or {self.number} directly!' "
 
         system_prompt += f"\n\n## Summary:\n{self.summary}\n\n## LinkedIn Profile:\n{self.linkedin}\n\n ## Other Information:\n{self.other_info}\n\n"
         system_prompt += f"With this context, please chat with the user, always staying in character as {self.name}. Do not mention that you are an assisant or AI model."
